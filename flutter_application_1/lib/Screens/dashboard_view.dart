@@ -216,7 +216,7 @@ class DashboardView extends StatelessWidget {
       child: Column(
         children: [
           Expanded(
-            flex: 4,
+            flex: 3,
             child: ClimateView(),
           ),
           SizedBox(height: 16),

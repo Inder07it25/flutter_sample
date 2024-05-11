@@ -18,7 +18,10 @@ class CarModelView extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              _buildEmergencyView(),
+              SizedBox(
+                height: 90,
+                child: _buildEmergencyView(),
+              ),
               _buildCircularButtonsRow(),
               const SizedBox(height: 16),
               _buildCarModelView(),
